@@ -4,11 +4,10 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "prisma generate && next build",
+    "build": "next build",
     "start": "next start",
     "lint": "next lint",
     "start:ts": "ts-node app/admin/createAdmin.ts",
-    "generate": "prisma generate",
     "postinstall": "prisma generate"
   },
   "dependencies": {
